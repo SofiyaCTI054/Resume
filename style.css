@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', serif;    
+    box-sizing: border-box;
+}
+#box {
+    padding: 0px;
+    display: flex;
+    position: relative;   
+    border: 3px solid black;
+}
+.td {
+    padding: 50px;
+}
+.leftbox {
+    background-color: Linen;
+    flex: 2;    
+    float: left;
+    padding: 20px;
+    /* border: 5px solid #609EA2; */
+}
+.rightbox {
+    background-color: #EEEEEE;
+    flex: 2;
+    float: left;
+    padding: 20px;
+    /* border: 5px solid #609EA2; */
+}
+
+
+
